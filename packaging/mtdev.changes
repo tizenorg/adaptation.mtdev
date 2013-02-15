@@ -1,0 +1,16 @@
+* Thu Nov 22 2012 Sung-Jin Park <sj76.park@samsung.com>
+- Upgrade to 1.1.3 version of mtdev from bitmath.org
+- This is essentially needed for 2.7.0 version of X evdev driver and XI2.2
+
+* Thu Jun 28 2012 Anas Nashif <anas.nashif@intel.com> 4912611
+- Cleanup spec file and remove obsolete yaml files
+
+* Wed May 30 2012 Ryan Ware <ryan.r.ware@intel.com> c0ce78c
+- Add default Smack manifest for mtdev.spec
+
+* Fri May 18 2012 Zhang Qiang <qiang.z.zhang@intel.com> f2a90f9
+- Initial code release
+
+* Wed May 02 2012 eunmee moon <eunmee.moon@samsung.com> 4c27bdf
+- Initial empty repository
+
