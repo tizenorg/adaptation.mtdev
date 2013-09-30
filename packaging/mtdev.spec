@@ -40,6 +40,8 @@ make %{?jobs:-j%jobs}
 
 %install
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/license
+cp -af COPYING %{buildroot}/usr/share/license/%{name}
 %make_install
 
 %post -p /sbin/ldconfig
@@ -47,6 +49,7 @@ rm -rf %{buildroot}
 
 %files
 %manifest mtdev.manifest
+/usr/share/license/%{name}
 %{_libdir}/libmtdev.so.*
 
 %files devel
